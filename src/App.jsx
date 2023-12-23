@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { AxiosDataContext } from './context/ContextAPI'
+import { AxiosDataContext } from './context/ApiContext'
 import './App.css'
 import { useTheme } from './context/ThemeContext'
 import Navbar from './components/Navbar'

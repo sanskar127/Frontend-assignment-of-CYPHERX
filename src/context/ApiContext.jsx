@@ -3,7 +3,7 @@ import axios from "axios"
 
 const AxiosDataContext = createContext()
 
-const ContextApi = ({ children }) => {
+const ApiContext = ({ children }) => {
   const [apiData, setApiData] = useState(null)
 
   useEffect(() => {
@@ -22,4 +22,4 @@ const ContextApi = ({ children }) => {
   )
 }
 
-export { AxiosDataContext,ContextApi }
+export { AxiosDataContext, ApiContext }
